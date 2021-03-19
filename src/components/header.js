@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { Logo, Navigation } from '../style/css'
 import pokemonListLogo from '../assets/pokemon-logo.png'
 import myPokemonLogo from '../assets/my-pokemon.png'
+import githubLogo from '../assets/github.jpeg'
 import Tooltip from '@material-ui/core/Tooltip';
 
 export default function Header() {
@@ -19,6 +20,11 @@ export default function Header() {
                     <Logo src={myPokemonLogo} className="ml-3" alt="my-pokemon"></Logo>
                 </Tooltip>
             </Link>
+            <a href={`https://github.com/janistan/catch-the-pokemon`} target="_blank">
+                <Tooltip title="GitHub" aria-label="add">
+                    <Logo src={githubLogo} className="ml-3" alt="my-pokemon"></Logo>
+                </Tooltip>
+            </a>
         </Navigation >
     );
 }
