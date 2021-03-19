@@ -22,7 +22,7 @@ export default function Header() {
             </Link>
             <a href={`https://github.com/janistan/catch-the-pokemon`} target="_blank">
                 <Tooltip title="GitHub" aria-label="add">
-                    <Logo src={githubLogo} className="ml-3" alt="my-pokemon"></Logo>
+                    <Logo src={githubLogo} className="ml-3" alt="github logo"></Logo>
                 </Tooltip>
             </a>
         </Navigation >
